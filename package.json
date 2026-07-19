@@ -1,0 +1,14 @@
+{
+  "name": "pizza-maker-game",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @pizza-maker-game/web dev",
+    "build": "pnpm --filter @pizza-maker-game/web build",
+    "preview": "pnpm --filter @pizza-maker-game/web preview",
+    "typecheck": "pnpm --filter @pizza-maker-game/web exec tsc -b",
+    "test": "pnpm --filter @pizza-maker-game/web test"
+  }
+}
