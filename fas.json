@@ -1,0 +1,6 @@
+{
+  "appId": "pizza-maker-game",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
